@@ -1,0 +1,52 @@
+
+.html li
+{
+	cursor:pointer;
+}
+.list-group-item li:hover
+{
+	border-radius: 10px;
+}
+
+
+.html{
+	position:relative;
+	height:100%;
+	overflow:scroll;
+	padding-bottom:40px;
+	resize: horizontal;
+	/* overflow: auto; */
+
+}
+.sidebar p
+{
+	padding-left:15px;
+	
+}
+.sidebar
+{
+	background-color:#e0e0e0;
+  
+}
+
+.sidebar p:hover
+{
+    color:#000000;	
+}
+
+.sidebar p
+{
+	color:grey;
+    cursor:pointer;	
+}
+
+
+.follow i
+{
+	font-size:40px;
+	padding:10px;
+}
+.side1
+{
+	position:fixed;
+}
