@@ -1,4 +1,5 @@
-import {Component, OnInit } from '@angular/core';    
+import {Component, OnInit } from '@angular/core';
+
 
 export class MyItems {    
   Value: string;    
@@ -42,6 +43,13 @@ export class AppComponent  implements OnInit{
   }     
 
   lastModified: Date;
+
+//   search(): void {
+//     let term = this.searchTerm;
+//     this.items = this.itemsCopy.filter(function(tag) {
+//         return tag.name.indexOf(term) >= 0;
+//     }); 
+// }
 
  AddItem() {    
   this.myItems.push(    
